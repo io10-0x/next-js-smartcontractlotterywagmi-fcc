@@ -1,0 +1,52 @@
+{
+  "name": "smart-contract-lottery",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ethereumjs/block": "^5.3.0",
+    "@ethereumjs/common": "^4.4.0",
+    "@ethereumjs/tx": "^5.4.0",
+    "@ethereumjs/vm": "^8.1.1",
+    "@reduxjs/toolkit": "^2.2.7",
+    "@tanstack/react-query": "^5.45.1",
+    "@toruslabs/openlogin": "^8.2.1",
+    "@walletconnect/client": "^1.8.0",
+    "@walletconnect/web3-provider": "^1.8.0",
+    "@web3auth/no-modal": "^8.12.4",
+    "@web3uikit/core": "^1.1.5",
+    "@web3uikit/icons": "^1.1.2",
+    "@web3uikit/web3": "^0.3.2",
+    "axios": "^1.7.7",
+    "next": "14.2.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.1.2",
+    "redux": "^5.0.1",
+    "sweetalert2": "^11.6.13",
+    "uuid": "^10.0.0",
+    "viem": "latest",
+    "wagmi": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.10",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "@wagmi/cli": "latest",
+    "autoprefixer": "^10.4.20",
+    "bufferutil": "^4.0.8",
+    "encoding": "^0.1.13",
+    "lokijs": "^1.5.12",
+    "pino-pretty": "^10.3.1",
+    "postcss": "^8.4.45",
+    "supports-color": "^9.4.0",
+    "tailwindcss": "^3.4.11",
+    "typescript": "^5.4.5",
+    "utf-8-validate": "^5.0.2"
+  }
+}
